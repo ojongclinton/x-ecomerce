@@ -5,6 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { searchAction } from "../redux/actions/search";
 import { NavLink, useNavigate } from "react-router-dom";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+import logo from "../assets/images/logo1.png";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -68,8 +69,15 @@ function Navbar() {
         <nav className="flex justify-between  w-screen fixed z-50 top-0 bg-custom-white dark:bg-custom-dark ">
           <div className="px-5 xl:px-12 py-6 flex w-full items-center">
             <a className="font-ibmplex text-lg" href="#">
-              RUSTYSHOP
+              RUSTYSHOP -
             </a>
+            <div>
+              <img
+                style={{ height: "30px", marginLeft: "10px" }}
+                src={logo}
+                alt="logo"
+              />
+            </div>
 
             <ul className="hidden md:flex px-4 mr-auto ml-12 font-poppins space-x-8 mt-1">
               <li>

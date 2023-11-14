@@ -22,7 +22,10 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">
+                  <a
+                    href="https://tailwindcss.com/"
+                    className="hover:underline"
+                  >
                     Tailwind CSS
                   </a>
                 </li>
@@ -35,7 +38,7 @@ function Footer() {
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/rustysym"
+                    href="https://github.com/ojongclinton"
                     className="hover:underline "
                   >
                     Github
